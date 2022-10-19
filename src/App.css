@@ -1,0 +1,18 @@
+
+p{
+  color: rgb(160, 163, 65);
+}
+#Ptag{
+  color: coral;
+}
+.ValedDiv{
+  width: 100%;
+  text-align: center;
+}
+.DivBackground{
+  width: 100%;
+  padding: 2px;
+  margin: auto;
+  background: chartreuse;
+  text-align: center;
+}
