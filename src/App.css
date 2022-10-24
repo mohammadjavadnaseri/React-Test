@@ -1,6 +1,9 @@
 
 #Ptag{
-  color: coral;
+  color: rgb(255, 127, 80);
+}
+#Ptag2{
+  color: rgb(26, 2, 5);
 }
 .ValedDiv{
   width: 100%;
@@ -11,5 +14,12 @@
   padding: 2px;
   margin: auto;
   background: chartreuse;
+  text-align: center;
+}
+.DivBackground2{
+  width: 100%;
+  padding: 2px;
+  margin: auto;
+  background: rgb(0, 195, 255);
   text-align: center;
 }
