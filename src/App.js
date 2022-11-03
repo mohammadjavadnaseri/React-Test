@@ -1,6 +1,9 @@
 import './App.css';
 import Header from './component/header';
 import Parent from './component/parent';
+import Ex7part1 from './component/ex7/ex7-part1.js';
+import Ex7part2 from './component/ex7/ex7-part2.js';
+import Ex7part3 from './component/ex7/ex7-part3.js';
 
 
 function App() {
@@ -34,6 +37,11 @@ function App() {
         />
       </Parent>
 
+      {/* Exercise Part-7 */}
+
+      <Ex7part1 />
+
+  
     </div>
   );
   
