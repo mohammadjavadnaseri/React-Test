@@ -2,7 +2,7 @@ import './App.css';
 import Header from './component/header';
 import Parent from './component/parent';
 import SignupForm from './component/ex8/formik.js';
-
+import Product from './component/ex8/products.js'
 
 
 function App() {
@@ -41,7 +41,8 @@ function App() {
       {/* Exercise Part-8 */}
 
       <SignupForm />
-
+      <br/>
+      <Product />
     
 
 
