@@ -1,0 +1,27 @@
+
+.conp{
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(27, 236, 167, 0.678);
+    padding: 5px;
+}
+.modalContant{
+    position: relative;
+    left: 30%;
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.butModalPlace{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: fit-content;
+    height: fit-content;
+}
+
