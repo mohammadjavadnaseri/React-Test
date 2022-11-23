@@ -27,24 +27,27 @@ export default function CardCm() {
             });
             cardTitle(responseShow);
             loadingTime(false);
-        }).catch((error) => toast(error.message));
+        }).catch((error) => {
+            toast(error.message);
+            loadingTime(false)
+        });
     };
-
-
     
     return (
         <>       
-            <button onClick={getPosts}>click</button>
+            <button className='but' onClick={getPosts}>click</button>
 
             {loading && <div className='loading'>loading...</div>}
 
             { showCard.map(finalShow => {
-                return( <p key={finalShow.id}>{finalShow.title}</p>)
+                return( 
+                    <div className='titlediv' key={finalShow.id}>
+                        {finalShow.title}
+                    </div>
+                    )
             })}
 
             <ToastContainer />
-
- 
         </>
     )
 }
