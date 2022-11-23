@@ -1,12 +1,12 @@
 import React from 'react';
-import UsButtons from './component/ex9/Pages/UsButtons';
+import CardCm from './component/ex10/CardCm';
 
 
 function App() {
  
 
   return (
-    <UsButtons />
+    <CardCm />
 
   );
   
