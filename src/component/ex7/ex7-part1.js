@@ -15,6 +15,5 @@ export default function Ex7part1() {
             </form>
             <p>{ptagValue}</p>
         </div>
-        
     )
 };
