@@ -35,9 +35,9 @@ export default function CardCm() {
     
     return (
         <>       
-            <button className='but' onClick={getPosts}>click</button>
-
             {loading && <div className='loading'>loading...</div>}
+            
+            <button className='but' onClick={getPosts}>click</button>
 
             { showCard.map(finalShow => {
                 return( 
